@@ -107,7 +107,12 @@ nav ul li a:hover {
   background-color: #f0a500;
   transform: scale(1.1);
 }
+.hero-content:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
 
+}
 
 /* Products */
 #products {
